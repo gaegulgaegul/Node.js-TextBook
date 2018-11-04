@@ -36,7 +36,7 @@ http.createServer((req, res) => {
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
         res.end('${session[cookies.session].name}님 안녕하세요');
     } else {
-        fs.readFile('./ch4/server4.html', (err, data) => {
+        fs.readFile('./server4.html', (err, data) => {
             if(err) {
                 throw err;
             }

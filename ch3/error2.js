@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 setInterval(() => {
-    fs.unlink('./ch3/abcdefg.js', (err) => {
+    fs.unlink('./abcdefg.js', (err) => {
         if(err) {
             console.error(err);
         }

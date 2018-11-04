@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.copyFile('./ch3/readme4.txt', './ch3/writeme4.txt', (error) => {
+fs.copyFile('./readme4.txt', './writeme4.txt', (error) => {
     if(error) {
         return console.error(error);
     }
